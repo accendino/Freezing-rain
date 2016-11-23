@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<!-- Titles -->
-	<title>Freezing rain</title>
+	<title>Start HTML - simple</title>
 	<meta name="keywords" content="Freezing rain, ice, rain, flowers in ice, icy rain, ice rain, pictures">
     <meta name="description" content="Freezing rain, ice, rain, flowers in ice, icy rain, ice rain, pictures">
 
@@ -15,8 +15,15 @@
 	<link rel="stylesheet" href="css/main.css">
 
 	<!-- FavIcons -->
-	<link rel="shortcut icon" href="img/favicons/red-robin.png" type="image/x-icon" />
+    <link rel="icon" href="img/favicons/red-robin.png"  type="image/x-icon" />
+	<link rel="shortcut icon" href="img/favicons/red-robin.png"  type="image/x-icon" />
     <link rel="apple-touch-icon" href="img/favicons/red-robin.png">
+
+    <!-- подключили карусель -->
+    <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css"> 
+    <link rel="stylesheet" href="libs/owl-carousel/owl.theme.css"> 
+    <!-- //подключили карусель-->
+
 
 </head>
 <body>
@@ -26,6 +33,16 @@
 	<![endif]-->
 
 	<!-- Здесь пишем код -->
+	<div id="slider-container" class="owl-carousel">
+		<img src="img/01.jpg" alt="Freezing rain">
+		<img src="img/02.jpg" alt="Freezing rain">
+		<img src="img/03.jpg" alt="Freezing rain">
+		<img src="img/04.jpg" alt="Freezing rain">
+		<img src="img/05.jpg" alt="Freezing rain">
+		<img src="img/06.jpg" alt="Freezing rain">
+		<img src="img/07.jpg" alt="Freezing rain">
+		<img src="img/08.jpg" alt="Freezing rain">
+	</div>
 
 	
 
@@ -38,6 +55,10 @@
 	<![endif]-->
 
 	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	
+	<!-- owl carousel -->
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+
 	<script src="js/main.js"></script>
 
 </body>
